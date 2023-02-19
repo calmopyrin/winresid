@@ -1,6 +1,6 @@
 //  ---------------------------------------------------------------------------
 //  This file is part of reSID, a MOS6581 SID emulator engine.
-//  Copyright (C) 1999  Dag Lem <resid@nimrod.no>
+//  Copyright (C) 1998 - 2022  Dag Lem <resid@nimrod.no>
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -17,8 +17,8 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //  ---------------------------------------------------------------------------
 
-#ifndef __SIDDEFS_H__
-#define __SIDDEFS_H__
+#ifndef RESID_SIDDEFS_H
+#define RESID_SIDDEFS_H
 
 // Define bool, true, and false for C++ compilers that lack these keywords.
 #define RESID_HAVE_BOOL 1
@@ -66,8 +66,7 @@ typedef unsigned int reg16;
 typedef unsigned int reg24;
 
 typedef int cycle_count;
-typedef int sound_sample;
-typedef sound_sample fc_point[2];
+typedef short short_point[2];
 typedef double double_point[2];
 
 enum chip_model { MOS6581, MOS8580 };
@@ -92,4 +91,4 @@ const char* resid_version_string = "0.16";
 #define RESID_INLINING 1
 #define RESID_INLINE inline
 
-#endif // not __SIDDEFS_H__
+#endif // not RESID_SIDDEFS_H

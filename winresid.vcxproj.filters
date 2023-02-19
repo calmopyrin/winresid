@@ -39,6 +39,12 @@
     <ClCompile Include="src\wave.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winresid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\dac.h">
@@ -90,6 +96,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\wave8580__ST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winresid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\siddefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
